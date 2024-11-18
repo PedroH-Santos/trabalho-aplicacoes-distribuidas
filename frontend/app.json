@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "ecodrive",
+    "slug": "ecodrive",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2C6E49"
+    },
+    "ios": {
+      "resizeMode": "contain",
+      "supportsTablet": true,
+      "statusBar": {
+        "backgroundColor": "#2C6E49",
+        "resizeMode": "contain",
+        "style": "light"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#2C6E49"
+      },
+      "package": "eco.drive"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
